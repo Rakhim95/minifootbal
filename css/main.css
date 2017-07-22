@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One');
+* 
+   
+body {
+    width: 99%;
+    height: 99%;
+}
+
+a {
+    color: #fa713e;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+a:hover {
+    color: #c34f25;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /*ie8*/
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+header {
+    float: left;
+    background-color: #343434;
+    width: 99.4%;
+    padding: 0.3%;
+    border-bottom: 5px solid #59595a;
+}
+
+header>div#logo>a>img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+header>div#logo>a {
+color: white;
+}
+
+header>div#logo>a>span {
+    font-size: 2.5em;
+    margin-left: 10px;
+    font-family: 'Suez One', serif;
+}
+
+@media (min-width: 950px){
+    header>div#logo>a>img{
+    margin-left: 10%;
+}
+    #logo {
+        float: left;
+        width: 30%;
+    }
+
+    #about {
+        float: left;
+        width: 37%;
+    }
+
+    #reg_auth {
+        float: right;
+        width: 30%;
+    }
+}
+@media (max-width: 949px) and (min-width: 525px) {
+    header>div#logo>a>img{
+    margin-left: 15%;
+}
+    #logo {
+        float: left;
+        width: 50%;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #reg_auth {
+        float: right;
+        width: 50%;
+    }
+}
+@media (max-width: 524px) {
+    header>div#logo>a>img{
+    margin-left: 5%;
+}
+    #logo {
+        width: auto;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #reg_auth {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#about {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+#about>a {
+    color: white;
+}
+
+#about>a:hover {
+    color: #dfdfdf;
+    border-bottom: 1px solid silver;
+}
+
+#about>a:last-child {
+    margin-left: 10%;
+}
+
+
+}
+
+/*
+font-family: 'Merriweather', serif;
+
+*/
